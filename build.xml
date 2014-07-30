@@ -20,11 +20,11 @@
 		<apply executable="php">
 			<arg value="-l" />
 			<fileset dir="${basedir}/src">
-				<include name="*.php" />
+				<include name="**/*.php" />
 				<modified />
 			</fileset>
 			<fileset dir="${basedir}/test">
-				<include name="*.php" />
+				<include name="**/*.php" />
 				<modified />
 			</fileset>
 		</apply>
