@@ -46,4 +46,6 @@ $render = array(
 // var_dump($_SESSION);
 // var_dump($_COOKIE);
 
+echo 'test';
+
 include 'web/render.php';
