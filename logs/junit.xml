@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="IMIE-CI" tests="6" assertions="6" failures="0" errors="0" time="0.037478">
+    <testsuite name="idaoUserTest" file="/home/android/www/jenkins-test/test/unit/idaousertest.php" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+    <testsuite name="UserTest" file="/home/android/www/jenkins-test/test/unit/usertest.php" tests="6" assertions="6" failures="0" errors="0" time="0.037478">
+      <testcase name="testGetPrenom" class="UserTest" file="/home/android/www/jenkins-test/test/unit/usertest.php" line="7" assertions="1" time="0.013856"/>
+      <testcase name="testGetNom" class="UserTest" file="/home/android/www/jenkins-test/test/unit/usertest.php" line="15" assertions="1" time="0.005091"/>
+      <testcase name="testGetAge" class="UserTest" file="/home/android/www/jenkins-test/test/unit/usertest.php" line="23" assertions="1" time="0.004820"/>
+      <testcase name="testSetPrenom" class="UserTest" file="/home/android/www/jenkins-test/test/unit/usertest.php" line="31" assertions="1" time="0.004757"/>
+      <testcase name="testSetNom" class="UserTest" file="/home/android/www/jenkins-test/test/unit/usertest.php" line="40" assertions="1" time="0.004208"/>
+      <testcase name="testSetAge" class="UserTest" file="/home/android/www/jenkins-test/test/unit/usertest.php" line="49" assertions="1" time="0.004746"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -29,4 +29,15 @@
 			</fileset>
 		</apply>
 	</target>
+
+	<target name="phpunit">
+		<exec executable="phpunit" failonerror="true">
+			<arg value="-c"/>
+			<arg value="build/phpunit.xml.dist"/>
+		</exec>
+	</target>
+
+	<target name="phpdox">
+		
+	</target>
 </project>

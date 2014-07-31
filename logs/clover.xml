@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1406810432">
+  <project timestamp="1406810432">
+    <package name="Entity">
+      <file name="/home/android/www/jenkins-test/src/entity/user.php">
+        <class name="User" namespace="Entity">
+          <metrics methods="9" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="13" elements="28" coveredelements="20"/>
+        </class>
+        <line num="15" type="method" name="__construct" crap="1" count="6"/>
+        <line num="16" type="stmt" count="6"/>
+        <line num="17" type="stmt" count="6"/>
+        <line num="18" type="stmt" count="6"/>
+        <line num="19" type="stmt" count="6"/>
+        <line num="28" type="method" name="serialize" crap="2" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="33" type="method" name="unserialize" crap="2" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="41" type="method" name="getNom" crap="1" count="2"/>
+        <line num="42" type="stmt" count="2"/>
+        <line num="45" type="method" name="getPrenom" crap="1" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="49" type="method" name="getAge" crap="1" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="53" type="method" name="setNom" crap="1" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="57" type="method" name="setPrenom" crap="1" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="61" type="method" name="setAge" crap="1" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <metrics loc="64" ncloc="45" classes="1" methods="9" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="13" elements="28" coveredelements="20"/>
+      </file>
+    </package>
+    <metrics files="1" loc="64" ncloc="45" classes="1" methods="9" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="13" elements="28" coveredelements="20"/>
+  </project>
+</coverage>
