@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1406810432">
-  <project timestamp="1406810432">
+<coverage generated="1406815763">
+  <project timestamp="1406815763">
     <package name="Entity">
       <file name="/home/android/www/jenkins-test/src/entity/user.php">
         <class name="User" namespace="Entity">

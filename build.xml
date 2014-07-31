@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="jenkins-test" default="build">
-	<target name="build" depends="prepare, lint">
+	<target name="build" depends="prepare, lint, phpunit, phploc">
 	</target>
 	
 	<target name="prepare" depends="clean">
@@ -37,7 +37,12 @@
 		</exec>
 	</target>
 
-	<target name="phpdox">
-		
+	<target name="phploc" description="measure bla bla">
+		<exec executable="phploc">
+			<arg value="--count-tests" />
+			<arg value="--log-csv" />
+			<arg value="${basedir}/build/logs/phploc.csv" />
+			<arg value="${basedir}/src" />
+		</exec>
 	</target>
 </project>
